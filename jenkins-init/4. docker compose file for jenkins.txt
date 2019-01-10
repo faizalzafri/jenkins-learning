@@ -1,0 +1,14 @@
+1.
+mkdir jenkins-data
+
+2.
+cd jenkins-data
+
+3.
+mkdir jenkins_home
+
+4.
+vi docker-compose.yml
+
+5.
+docker exec -ti jenkins bash

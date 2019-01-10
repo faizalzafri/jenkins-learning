@@ -1,0 +1,16 @@
+1.
+Checking 'This project is parameterized' and add parameters
+
+2.
+Use parameters in script
+
+3.
+Build changes to build with parameter
+
+4.
+Use String, Choice parameters
+
+5.
+logic and boolean parameters
+
+

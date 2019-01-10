@@ -1,0 +1,15 @@
+1.
+vi script.sh
+
+2.
+chmod +x ./script.sh (giving executable permission)
+
+3.
+docker cp script.sh jenkins:/tmp/script.sh
+
+4.
+NAME=Faizal
+LASTNAME=Zafri
+/tmp/script.sh $NAME $LASTNAME
+
+(defining variable and passing as parameters)

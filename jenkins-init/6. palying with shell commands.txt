@@ -1,0 +1,16 @@
+1.
+echo "Current date and time is $(date)"
+
+2.
+NAME=Faizal
+echo "Hello $NAME, Current Date and time is $(date)"
+
+3.
+NAME=Faizal
+echo "Hello $NAME, Current Date and time is $(date)" > /tmp/info
+
+cat /tmp/info
+
+rm -rf /tmp/info
+
+4.

@@ -1,0 +1,14 @@
+1.
+sudo chown 1000:1000 jenkins_home -R
+
+2.
+docker-compose up -d
+
+3.
+docker logs -f jenkins
+
+4.
+cfbade49a0414e7eb5a0db83d6e78a71
+
+5.
+log in to jenkins using ip

@@ -1,0 +1,11 @@
+1.
+adding private key in jenkins credentials
+
+2.
+configure sytem and add remote host
+
+3.
+create a new job with build acion on ssh option
+
+NAME=FAIZAL
+echo "Hello $NAME, Current time is $(date)" > /tmp/remote-file

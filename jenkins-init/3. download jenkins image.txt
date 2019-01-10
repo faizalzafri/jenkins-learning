@@ -1,0 +1,9 @@
+1.
+docker pull jenkins/jenkins
+
+2.  
+docker info | grep -i root
+
+3.	
+sudo du -sh /var/lib/docker
+

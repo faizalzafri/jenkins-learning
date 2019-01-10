@@ -1,0 +1,28 @@
+connecting via ssh server1 --> server2
+
+1. vm --> another vm with jenkins
+
+2. docker container 1 ---> docker container 2 with jenkins
+
+------------------------------
+
+1.
+mkdir centos7 on jenkins vm
+
+2.
+vi Dockerfile
+
+3.
+ssh-keygen -f remote-key
+
+4.
+vi docker-compose.yml
+
+5.
+docker-compose build (docker goes tocontext and executes Dockerfile)
+
+6.
+docker cp remote-key jenkins:/tmp/remote-key
+
+7.
+jenkins@766410e07e62:/tmp$ ssh -i remote-key remote_user@remote_host

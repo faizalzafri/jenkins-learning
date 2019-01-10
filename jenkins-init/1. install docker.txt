@@ -1,0 +1,27 @@
+1.
+sudo yum install -y yum-utils \
+  device-mapper-persistent-data \
+  lvm2
+
+2.  
+sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+
+3.	
+sudo yum install docker-ce
+
+4.
+sudo systemctl start docker
+
+5.
+sudo docker run hello-world
+
+6.
+sudo systemctl enable docker (To start docker on boot)
+
+7.
+sudo usermod -aG docker jenkins (Adding user jenkins to docker group)
+
+8.
+Log out and Log in Again
