@@ -1,0 +1,12 @@
+1.
+modify docker-compose.yml
+
+2.
+docker-compose up -d
+
+3.
+docker exec -ti db bash
+
+4.
+mysql -u root -p
+
