@@ -1,0 +1,20 @@
+1.
+modify docker-compose.yml
+
+2.
+add volumes in remote_host and remember folder and file confusion
+
+3.
+change ownership to jenkins from root
+
+sudo chown jenkins:jenkins aws-s3
+sudo chown jenkins:jenkins aws-s3/script.sh
+
+4.
+give permissions to script file outside of container
+
+chmod +x aws-s3
+chmod +x aws-s3/script.sh
+
+5.
+Build the job and check

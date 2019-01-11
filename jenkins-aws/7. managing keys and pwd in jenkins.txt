@@ -1,0 +1,8 @@
+1.
+credentials -> jenkins -> global cred -> add
+
+2.
+secret text
+
+3.
+add password and secret keys
