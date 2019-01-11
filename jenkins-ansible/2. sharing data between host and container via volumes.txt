@@ -1,0 +1,15 @@
+1.
+paste remote-key in shared folder ie. the one in volumes array
+
+2.
+log into jenkins container
+
+3.
+go to /var/jenkins_home
+
+4.
+u will find remote-key file created there
+
+5.
+as we aere using this for ssh in jenkins container of jenkins/jenkins to connect with remote_host
+similarly we will use this for ssh in jenkins ansible container
