@@ -1,0 +1,5 @@
+1.
+create a script file in remote host
+
+2.
+chmod +x /tmp/script.sh

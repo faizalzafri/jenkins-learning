@@ -1,0 +1,8 @@
+1.
+create bucket in aws s3.
+
+2.
+create user using IAM choosing programmatic access and attach existing policies
+
+3.
+download credentials

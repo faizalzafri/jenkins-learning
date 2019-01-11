@@ -1,2 +1,17 @@
 1.
 modify Dockerfile
+
+2.
+docker-compose build (from centos7, to create new image of mysql)
+
+3.
+docker-compose up -d (recreats the remote_host)
+
+4.
+mysql -u root -h db_host -p
+
+	create database testdb;
+	use testdb;
+	create table info(name varchar(20), lastname varchar(20),age int(2));
+	insert into info values ('faizal','zafri',24);
+	
