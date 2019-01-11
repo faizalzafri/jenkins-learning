@@ -1,0 +1,26 @@
+1.
+copy remote key at the same level as Dockerfile
+
+2.
+create an inventory file at the same level as Dockerfile called hosts
+
+3.
+we need to give these files to jenkins-ansible container
+
+4.
+so paste this in shared folder from volumes array
+
+5.
+go to the container via docker exec
+
+6.
+check by   -> ping remote_host
+
+7.
+ansible -i hosts -m ping test1
+
+output:
+test1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}

@@ -1,0 +1,7 @@
+playbook = everything that ansible should do
+
+1.
+create play.yml in jenkins-ansible
+
+2.
+ 
