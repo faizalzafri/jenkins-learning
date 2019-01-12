@@ -4,4 +4,10 @@ playbook = everything that ansible should do
 create play.yml in jenkins-ansible
 
 2.
- 
+paste in shared folder
+
+3.
+go to jenkins container
+
+4.
+ansible-playbook -i hosts play.yml

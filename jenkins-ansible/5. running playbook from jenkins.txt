@@ -1,0 +1,12 @@
+1.
+create new free style project
+
+2.
+in build step add path to playbook and hosts file
+
+3.
+add parameter 
+
+4.
+go to advanced in build section add variable which playbook is 
+expecting and the value as $<variable_name> from step 3

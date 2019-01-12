@@ -1,0 +1,42 @@
+1.
+create db that will hold the data
+
+create database people;
+use people;
+create table register (id int(3), name varchar(50), lastname varchar(50), age int(3));
+show tables;
+desc register;
+
+2.
+inserting data using bash scripts
+
+3.
+copying it to db host
+
+4.
+creating nginx check web/Dockerfile
+
+5.
+update docker-compose
+
+6.
+launch container and create index.php file in /var/www/html
+
+7.
+create a php script to display table
+
+8.
+connect docker web to ansible inventory
+to do this we will modify hosts file in jenkins-ansible just as we did for remote_host
+
+9.
+ansible -i hosts -m ping web1
+
+10.
+writing a playbook to run php script
+
+11.
+copy the source (table.j2) to location inside the container where playbook is.
+
+12.
+create jenkins job for ansible playbook execution
