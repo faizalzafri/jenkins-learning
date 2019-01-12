@@ -1,0 +1,5 @@
+1.
+we can use jenkins's env variables ex $BUILD_ID, etc
+
+2.
+we can create cutom global env var in configure system under global properties

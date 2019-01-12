@@ -1,0 +1,27 @@
+1.
+
+manage jenkins --> configure global securit --> uncheck enable security
+this disable the login jenkins and any one with ip can login
+
+2.
+
+manage jenkins --> configure global securit --> security realm --> check signup
+this enables the signup to jenkins 
+
+3.
+using a plugin Role-based Authorization Strategy
+
+4.
+check role based auth in manage jenkins --> configure global security
+
+5.
+check if manage jenkins --> manage and assign roles is enabled
+
+6.
+create a temp user and check if it is having read permisson. try log in with it.
+
+7.
+go manage role and permisson and add role and add temp user to the global table with read permisson
+
+8.
+create project role using pattern ex. ansible-.*

@@ -1,0 +1,13 @@
+1.
+executing job peridocally can be done in build tiggers --> build periodically
+by providing cron expression
+
+2.
+executing job from external sources
+-create user with execution permission
+-prevent CSRF
+-use crumb
+-get jenkins crumb and pass it in a post request
+-for parameter use /<job_name>/buildwithparameters?<param1>=<value1>
+
+check crumb.sh
